@@ -55,6 +55,7 @@
 		BDB0AB8D2B1FF6FE0081C694 /* PlayGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayGameController.swift; path = ../../PlayGameController.swift; sourceTree = "<group>"; };
 		BDB0AB8F2B1FF7120081C694 /* BlankPageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlankPageScreen.swift; path = ../../BlankPageScreen.swift; sourceTree = "<group>"; };
 		BDB0AB952B1FF9F20081C694 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		BDB0ABA12B1FFAF60081C694 /* DrawnImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DrawnImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 				BDB0AB772B1FF4460081C694 /* mainSupportingFiles */,
 				BDB0AB912B1FF73B0081C694 /* Storyboards */,
 				BD9191842B1FD9AC00FA5721 /* Assets.xcassets */,
+				BDB0ABA12B1FFAF60081C694 /* DrawnImageClassifier.mlmodel */,
 				BD9191892B1FD9AC00FA5721 /* Info.plist */,
 				BDB0AB952B1FF9F20081C694 /* GoogleService-Info-2.plist */,
 			);
