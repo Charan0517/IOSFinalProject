@@ -13,6 +13,18 @@
 		BD9191832B1FD9AB00FA5721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9191812B1FD9AB00FA5721 /* Main.storyboard */; };
 		BD9191852B1FD9AC00FA5721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9191842B1FD9AC00FA5721 /* Assets.xcassets */; };
 		BD9191882B1FD9AC00FA5721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9191862B1FD9AC00FA5721 /* LaunchScreen.storyboard */; };
+		BDB0AB6E2B1FF3C60081C694 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB6D2B1FF3C60081C694 /* Model.swift */; };
+		BDB0AB702B1FF3DA0081C694 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB6F2B1FF3DA0081C694 /* Database.swift */; };
+		BDB0AB722B1FF3EA0081C694 /* canvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB712B1FF3EA0081C694 /* canvasView.swift */; };
+		BDB0AB742B1FF4230081C694 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB732B1FF4230081C694 /* DashboardCell.swift */; };
+		BDB0AB762B1FF4340081C694 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB752B1FF4340081C694 /* FavoritesCell.swift */; };
+		BDB0AB832B1FF5CB0081C694 /* TutorialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB822B1FF5CB0081C694 /* TutorialModel.swift */; };
+		BDB0AB852B1FF6120081C694 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB842B1FF6120081C694 /* HomeScreen.swift */; };
+		BDB0AB882B1FF6B20081C694 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB872B1FF6B20081C694 /* DashboardScreen.swift */; };
+		BDB0AB8A2B1FF6C90081C694 /* TutorialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB892B1FF6C90081C694 /* TutorialScreen.swift */; };
+		BDB0AB8C2B1FF6E40081C694 /* FavoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB8B2B1FF6E40081C694 /* FavoritesScreen.swift */; };
+		BDB0AB8E2B1FF6FE0081C694 /* PlayGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB8D2B1FF6FE0081C694 /* PlayGameController.swift */; };
+		BDB0AB902B1FF7120081C694 /* BlankPageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB8F2B1FF7120081C694 /* BlankPageScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		BD9191842B1FD9AC00FA5721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD9191872B1FD9AC00FA5721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD9191892B1FD9AC00FA5721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB0AB6D2B1FF3C60081C694 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BDB0AB6F2B1FF3DA0081C694 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		BDB0AB712B1FF3EA0081C694 /* canvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canvasView.swift; sourceTree = "<group>"; };
+		BDB0AB732B1FF4230081C694 /* DashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+		BDB0AB752B1FF4340081C694 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
+		BDB0AB822B1FF5CB0081C694 /* TutorialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialModel.swift; sourceTree = "<group>"; };
+		BDB0AB842B1FF6120081C694 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		BDB0AB872B1FF6B20081C694 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashboardScreen.swift; path = ../../DashboardScreen.swift; sourceTree = "<group>"; };
+		BDB0AB892B1FF6C90081C694 /* TutorialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TutorialScreen.swift; path = ../../TutorialScreen.swift; sourceTree = "<group>"; };
+		BDB0AB8B2B1FF6E40081C694 /* FavoritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesScreen.swift; path = ../../FavoritesScreen.swift; sourceTree = "<group>"; };
+		BDB0AB8D2B1FF6FE0081C694 /* PlayGameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayGameController.swift; path = ../../PlayGameController.swift; sourceTree = "<group>"; };
+		BDB0AB8F2B1FF7120081C694 /* BlankPageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlankPageScreen.swift; path = ../../BlankPageScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,59 @@
 		BD91917A2B1FD9AB00FA5721 /* DrawingApp */ = {
 			isa = PBXGroup;
 			children = (
-				BD91917B2B1FD9AB00FA5721 /* AppDelegate.swift */,
-				BD91917D2B1FD9AB00FA5721 /* SceneDelegate.swift */,
+				BDB0AB6C2B1FF3A60081C694 /* SupportingFiles */,
 				BD91917F2B1FD9AB00FA5721 /* ViewController.swift */,
-				BD9191812B1FD9AB00FA5721 /* Main.storyboard */,
+				BDB0AB862B1FF6610081C694 /* View Controllers */,
+				BDB0AB772B1FF4460081C694 /* mainSupportingFiles */,
+				BDB0AB912B1FF73B0081C694 /* Storyboards */,
 				BD9191842B1FD9AC00FA5721 /* Assets.xcassets */,
-				BD9191862B1FD9AC00FA5721 /* LaunchScreen.storyboard */,
 				BD9191892B1FD9AC00FA5721 /* Info.plist */,
 			);
 			path = DrawingApp;
+			sourceTree = "<group>";
+		};
+		BDB0AB6C2B1FF3A60081C694 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BD91917B2B1FD9AB00FA5721 /* AppDelegate.swift */,
+				BD91917D2B1FD9AB00FA5721 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BDB0AB772B1FF4460081C694 /* mainSupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BDB0AB6D2B1FF3C60081C694 /* Model.swift */,
+				BDB0AB6F2B1FF3DA0081C694 /* Database.swift */,
+				BDB0AB712B1FF3EA0081C694 /* canvasView.swift */,
+				BDB0AB732B1FF4230081C694 /* DashboardCell.swift */,
+				BDB0AB752B1FF4340081C694 /* FavoritesCell.swift */,
+				BDB0AB822B1FF5CB0081C694 /* TutorialModel.swift */,
+			);
+			path = mainSupportingFiles;
+			sourceTree = "<group>";
+		};
+		BDB0AB862B1FF6610081C694 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDB0AB8D2B1FF6FE0081C694 /* PlayGameController.swift */,
+				BDB0AB8F2B1FF7120081C694 /* BlankPageScreen.swift */,
+				BDB0AB8B2B1FF6E40081C694 /* FavoritesScreen.swift */,
+				BDB0AB892B1FF6C90081C694 /* TutorialScreen.swift */,
+				BDB0AB872B1FF6B20081C694 /* DashboardScreen.swift */,
+				BDB0AB842B1FF6120081C694 /* HomeScreen.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BDB0AB912B1FF73B0081C694 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BD9191812B1FD9AB00FA5721 /* Main.storyboard */,
+				BD9191862B1FD9AC00FA5721 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +206,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB0AB742B1FF4230081C694 /* DashboardCell.swift in Sources */,
+				BDB0AB8E2B1FF6FE0081C694 /* PlayGameController.swift in Sources */,
+				BDB0AB8C2B1FF6E40081C694 /* FavoritesScreen.swift in Sources */,
+				BDB0AB902B1FF7120081C694 /* BlankPageScreen.swift in Sources */,
+				BDB0AB762B1FF4340081C694 /* FavoritesCell.swift in Sources */,
+				BDB0AB722B1FF3EA0081C694 /* canvasView.swift in Sources */,
+				BDB0AB8A2B1FF6C90081C694 /* TutorialScreen.swift in Sources */,
 				BD9191802B1FD9AB00FA5721 /* ViewController.swift in Sources */,
+				BDB0AB882B1FF6B20081C694 /* DashboardScreen.swift in Sources */,
 				BD91917C2B1FD9AB00FA5721 /* AppDelegate.swift in Sources */,
+				BDB0AB832B1FF5CB0081C694 /* TutorialModel.swift in Sources */,
+				BDB0AB852B1FF6120081C694 /* HomeScreen.swift in Sources */,
 				BD91917E2B1FD9AB00FA5721 /* SceneDelegate.swift in Sources */,
+				BDB0AB702B1FF3DA0081C694 /* Database.swift in Sources */,
+				BDB0AB6E2B1FF3C60081C694 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
