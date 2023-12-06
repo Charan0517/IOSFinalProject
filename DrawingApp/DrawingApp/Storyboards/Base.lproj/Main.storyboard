@@ -178,26 +178,26 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="Laf-OF-uht" customClass="DashboardCell" customModule="DrawingApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="133"/>
+                                        <rect key="frame" x="0.0" y="50" width="393" height="134.33332824707031"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Laf-OF-uht" id="x8e-E1-Mv6">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="133"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="134.33332824707031"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mPO-Lg-nm9">
-                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="133"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="134.33333333333334"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B9f-FE-K8Q">
-                                                            <rect key="frame" x="0.0" y="0.0" width="118" height="133"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="118" height="134.33333333333334"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlK-Uz-yxy">
-                                                            <rect key="frame" x="126" y="0.0" width="157" height="133"/>
+                                                            <rect key="frame" x="126" y="0.0" width="157" height="134.33333333333334"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XkR-hz-D3h">
-                                                            <rect key="frame" x="353.66666666666669" y="0.0" width="39.333333333333314" height="133"/>
+                                                            <rect key="frame" x="353.66666666666669" y="0.0" width="39.333333333333314" height="134.33333333333334"/>
                                                             <state key="normal" title="Button"/>
                                                             <buttonConfiguration key="configuration" style="plain"/>
                                                             <connections>
@@ -266,6 +266,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="48.666666666666664" height="287.66666666666669"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="rightBTNAction:" destination="J8A-4Y-VHP" eventType="touchUpInside" id="pH6-wj-wRc"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="att-a5-fcr">
                                                 <rect key="frame" x="56.666666666666686" y="0.0" width="240" height="287.66666666666669"/>
@@ -274,6 +277,9 @@
                                                 <rect key="frame" x="304.66666666666669" y="0.0" width="48.333333333333314" height="287.66666666666669"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="leftBTNAction:" destination="J8A-4Y-VHP" eventType="touchUpInside" id="phb-B6-LpT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -304,6 +310,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ic5-oi-kR7"/>
+                    <connections>
+                        <outlet property="instDescription" destination="9sE-ke-SPo" id="ZdC-ue-neU"/>
+                        <outlet property="instructionImage" destination="att-a5-fcr" id="s1h-ei-8YE"/>
+                        <outlet property="leftButton" destination="qCL-9z-hox" id="LY1-o9-ztm"/>
+                        <outlet property="rightButton" destination="Zom-AB-b1w" id="0Pe-TF-sSx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C2b-r7-7BH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -382,11 +394,17 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="clear"/>
+                                                <connections>
+                                                    <action selector="clear:" destination="vul-UP-Inv" eventType="touchUpInside" id="zGZ-fq-Jnb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lu-AV-Dqp">
                                                 <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Next Challenge"/>
+                                                <connections>
+                                                    <action selector="nextChallenge:" destination="vul-UP-Inv" eventType="touchUpInside" id="DU7-yY-Rse"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -407,6 +425,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tAf-H2-DBr"/>
+                    <connections>
+                        <outlet property="ScoreLBL" destination="gfP-JM-Hnf" id="l50-Dm-dZC"/>
+                        <outlet property="canvasView" destination="UYC-IB-0I2" id="1ip-Ff-NRa"/>
+                        <outlet property="highestScoreLBL" destination="D2h-XP-xdx" id="N1w-Mt-k76"/>
+                        <outlet property="randomcategory" destination="NAK-EZ-aE5" id="Lh6-KB-FnH"/>
+                        <outlet property="results" destination="U8g-yX-C2g" id="IBc-Ii-m76"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rwn-kV-YI8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -424,31 +449,31 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="QtD-ob-hRR" customClass="favoritesCell" customModule="DrawingApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="133.33332824707031"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="QtD-ob-hRR" customClass="FavoritesCell" customModule="DrawingApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="135"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QtD-ob-hRR" id="R9s-vx-Y9v">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="133.33332824707031"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="135"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rkO-Xj-cyI">
-                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="133.33333333333334"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="135"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pqX-lk-ihm">
-                                                            <rect key="frame" x="0.0" y="0.0" width="118" height="133.33333333333334"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="118" height="135"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51C-60-VQg">
-                                                            <rect key="frame" x="126" y="0.0" width="157" height="133.33333333333334"/>
+                                                            <rect key="frame" x="126" y="0.0" width="157" height="135"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6K-Fe-eCD">
-                                                            <rect key="frame" x="353.66666666666669" y="0.0" width="39.333333333333314" height="133.33333333333334"/>
+                                                            <rect key="frame" x="353.66666666666669" y="0.0" width="39.333333333333314" height="135"/>
                                                             <state key="normal" title="Button"/>
                                                             <buttonConfiguration key="configuration" style="plain"/>
                                                             <connections>
-                                                                <action selector="deleteDrawing:" destination="QtD-ob-hRR" eventType="touchUpInside" id="Gm5-z0-VbD"/>
+                                                                <action selector="deleteDrawing:" destination="QtD-ob-hRR" eventType="touchUpInside" id="p6A-dT-pOv"/>
                                                             </connections>
                                                         </button>
                                                     </subviews>
@@ -468,9 +493,9 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
-                                            <outlet property="deleteBtn" destination="c6K-Fe-eCD" id="l5j-gg-6tl"/>
-                                            <outlet property="img" destination="pqX-lk-ihm" id="59l-TI-d2T"/>
-                                            <outlet property="itemName" destination="51C-60-VQg" id="nqx-3v-uWb"/>
+                                            <outlet property="deleteBtn" destination="c6K-Fe-eCD" id="ZcA-Lo-6If"/>
+                                            <outlet property="img" destination="pqX-lk-ihm" id="6kM-Jb-zr4"/>
+                                            <outlet property="itemName" destination="51C-60-VQg" id="Vch-ZJ-dmR"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -486,6 +511,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jYz-UV-QTD"/>
+                    <connections>
+                        <outlet property="favoritesTableView" destination="OFe-Qx-SzW" id="db6-6c-ebA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ftj-fu-qi0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
