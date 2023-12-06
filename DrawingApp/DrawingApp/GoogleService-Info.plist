@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyCs-oZ1Kw5RKqQ_ENnwYBWMeEjM0BqI4x4</string>
+	<string>AIzaSyDJ4UTgz-rAc4m_1EVEQPs9AKbUV6k1bq8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>520083516967</string>
+	<string>937271157914</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>edu.nwmissouri.fall23.cs44643.DrawingApp</string>
+	<string>edu.nwmissouri.fall2023.cs44643.DrawingApp2</string>
 	<key>PROJECT_ID</key>
-	<string>drawingapp2-49118</string>
+	<string>drawing-app-d961c</string>
 	<key>STORAGE_BUCKET</key>
-	<string>drawingapp2-49118.appspot.com</string>
+	<string>drawing-app-d961c.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:520083516967:ios:ffae6af831ee81a4e12802</string>
+	<string>1:937271157914:ios:15e05c11dc8798c9e5eb23</string>
 </dict>
 </plist>
