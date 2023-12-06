@@ -62,7 +62,7 @@ class FavoritesScreen: UIViewController, UITableViewDelegate, UITableViewDataSou
     
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let share = UIContextualAction(style: .normal, title: "share", handler: {_,_,completion in
-            guard let cell = tableView.cellForRow(at: indexPath) as? favoritesCell else {
+            guard let cell = tableView.cellForRow(at: indexPath) as? FavoritesCell else {
                 return
             }
             guard let canvasImage = cell.img else {

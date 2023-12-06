@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreML
 
 class PlayGameController: UIViewController, DrawingViewDelegate{
 

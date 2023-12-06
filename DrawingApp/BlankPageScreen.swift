@@ -12,7 +12,8 @@ protocol BlankPageDelegate: AnyObject{
     func updateDrawingData(_ drawingData: [Line], forDrawingWithName name: String)
 }
 
-class BlankPageScreen: UIViewController {
+class BlankPageScreen: UIViewController, DrawingViewDelegate {
+    private let colors: [UIColor] = [.red, .blue, .green, .yellow, .orange, .black, .darkGray, .white, .cyan, .magenta, .orange, .purple, .brown]
 
     @IBOutlet weak var resultLBL: UILabel!
     @IBOutlet weak var share: UIButton!
@@ -364,10 +365,10 @@ extension BlankPageScreen: UICollectionViewDelegate {
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return colorsCollection.count
+        return colors.count
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let color = colo[indexPath.row]
+        let color = colors[indexPath.row]
         canvasView.setStrokeColor(color)
         //colorsLabel.textColor = color
     }

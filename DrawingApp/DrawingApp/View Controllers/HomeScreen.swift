@@ -76,9 +76,9 @@ class HomeScreen: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         blankPage.layer.cornerRadius = 20
-        dashboard.layer.cornerRadius = 20
-        favorites.layer.cornerRadius = 20
-        tutorial.layer.cornerRadius = 20
+        dashboardPage.layer.cornerRadius = 20
+        favoritesPage.layer.cornerRadius = 20
+        tutorialPage.layer.cornerRadius = 20
         playGameBtn.layer.cornerRadius = 20
         fetchDrawingsFromFirestore(completion: {fetchDrawings in
            dashBoardDrawing = fetchDrawings
