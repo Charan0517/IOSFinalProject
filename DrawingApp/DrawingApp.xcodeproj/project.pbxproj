@@ -19,7 +19,6 @@
 		BDB0AB742B1FF4230081C694 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB732B1FF4230081C694 /* DashboardCell.swift */; };
 		BDB0AB762B1FF4340081C694 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB752B1FF4340081C694 /* FavoritesCell.swift */; };
 		BDB0AB832B1FF5CB0081C694 /* TutorialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB822B1FF5CB0081C694 /* TutorialModel.swift */; };
-		BDB0AB852B1FF6120081C694 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB842B1FF6120081C694 /* HomeScreen.swift */; };
 		BDB0AB882B1FF6B20081C694 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB872B1FF6B20081C694 /* DashboardScreen.swift */; };
 		BDB0AB8A2B1FF6C90081C694 /* TutorialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB892B1FF6C90081C694 /* TutorialScreen.swift */; };
 		BDB0AB8C2B1FF6E40081C694 /* FavoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0AB8B2B1FF6E40081C694 /* FavoritesScreen.swift */; };
@@ -31,6 +30,7 @@
 		BDB0AB9C2B1FFA2E0081C694 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BDB0AB9B2B1FFA2E0081C694 /* FirebaseAnalyticsSwift */; };
 		BDB0AB9E2B1FFA2E0081C694 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = BDB0AB9D2B1FFA2E0081C694 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		BDB0ABA02B1FFA2E0081C694 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = BDB0AB9F2B1FFA2E0081C694 /* FirebaseAppCheck */; };
+		BDB0ABA32B1FFCAF0081C694 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0ABA22B1FFCAF0081C694 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +48,6 @@
 		BDB0AB732B1FF4230081C694 /* DashboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
 		BDB0AB752B1FF4340081C694 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
 		BDB0AB822B1FF5CB0081C694 /* TutorialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialModel.swift; sourceTree = "<group>"; };
-		BDB0AB842B1FF6120081C694 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		BDB0AB872B1FF6B20081C694 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashboardScreen.swift; path = ../../DashboardScreen.swift; sourceTree = "<group>"; };
 		BDB0AB892B1FF6C90081C694 /* TutorialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TutorialScreen.swift; path = ../../TutorialScreen.swift; sourceTree = "<group>"; };
 		BDB0AB8B2B1FF6E40081C694 /* FavoritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoritesScreen.swift; path = ../../FavoritesScreen.swift; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		BDB0AB8F2B1FF7120081C694 /* BlankPageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlankPageScreen.swift; path = ../../BlankPageScreen.swift; sourceTree = "<group>"; };
 		BDB0AB952B1FF9F20081C694 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		BDB0ABA12B1FFAF60081C694 /* DrawnImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DrawnImageClassifier.mlmodel; sourceTree = "<group>"; };
+		BDB0ABA22B1FFCAF0081C694 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 				BDB0AB8B2B1FF6E40081C694 /* FavoritesScreen.swift */,
 				BDB0AB892B1FF6C90081C694 /* TutorialScreen.swift */,
 				BDB0AB872B1FF6B20081C694 /* DashboardScreen.swift */,
-				BDB0AB842B1FF6120081C694 /* HomeScreen.swift */,
+				BDB0ABA22B1FFCAF0081C694 /* HomeScreen.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 				BDB0AB882B1FF6B20081C694 /* DashboardScreen.swift in Sources */,
 				BD91917C2B1FD9AB00FA5721 /* AppDelegate.swift in Sources */,
 				BDB0AB832B1FF5CB0081C694 /* TutorialModel.swift in Sources */,
-				BDB0AB852B1FF6120081C694 /* HomeScreen.swift in Sources */,
+				BDB0ABA32B1FFCAF0081C694 /* HomeScreen.swift in Sources */,
 				BD91917E2B1FD9AB00FA5721 /* SceneDelegate.swift in Sources */,
 				BDB0AB702B1FF3DA0081C694 /* Database.swift in Sources */,
 				BDB0AB6E2B1FF3C60081C694 /* Model.swift in Sources */,
